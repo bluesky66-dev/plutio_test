@@ -1,0 +1,30 @@
+.repeat-checkbox[type="checkbox" ], .repeat-checkbox[type="radio" ] {
+    visibility: visible !important;
+    display: inline !important;
+    background-color: initial !important;
+    cursor: default !important;
+    appearance: auto !important;
+    box-sizing: border-box !important;
+    margin: initial !important;
+    padding: initial !important;
+    border: initial !important;
+    width: 10px !important;
+}
+
+input {
+    min-width: 20px !important;
+}
+
+.inline-label {
+    display: grid;
+    grid-template-columns: 80px auto;
+    justify-items: baseline;
+    font-size: 20px;
+    font-weight: 900;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.color-input {
+    width: 60px !important;
+}
